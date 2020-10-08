@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+.shipping{
+    background-color: black;
+    color: white;
+    max-height: 80px;
+    padding: 1px;
+    font-size: 1rem;
+    font-weight: 300;
+    text-align: center;
+}
+
+.topmenu{
+    width: 100%;
+    position: relative;
+    height: 100px;
+}
+
+.menu-logo{
+    height: 100%;
+    margin-left: 20px;
+    width: auto;
+    float: left;
+}
+
+.nav{
+margin: 0;
+padding: 0;
+display: inline-flex;
+align-items: center;
+flex: 1;
+justify-content: center;
+font-size: 20px;
+}
+.fa-shopping-cart{
+    color: #854EA2;
+    
+}
+.nav li{
+list-style-type: none;
+padding: 20px;
+text-align: center;
+height: 40px;
+color: #854EA2;
+padding-bottom: 40px;
+}
+
+
+.nav li a{
+display: block;
+text-decoration: none;
+color: #854EA2;
+/* 14px = top and bottom 16px = left and right  */
+padding: 14px 16px; 
+}
+
+.nav li:hover{
+
+background-color: #854EA2;
+}
+
+.nav li a:hover{
+color: white;
+padding-top: 20px;
+}
+
+.cart{
+    float: right;
+    margin-right: 40px;
+    margin-top: 30px;
+}
+
+
+#wrapper{
+margin-top: 80px;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+}
+.product-title h1{
+    visibility: hidden;
+}
+h2{
+    display: none;
+}
+
+#proof, #world, #curlmix, #jackies, #jessies, #eden, #iam, #serum, #moroccan, #dove, #leavin, #wave{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0px;
+    width: 100%;
+    text-align: center;
+    
+    padding-bottom: 20px;
+    }
+#proof div, #world div, #curlmix div, #jackies div, #jessies div, #eden div, #iam div, #serum div, #moroccan div, #dove div, #leavin div, #wave div{
+    width: 200px;
+}
+#proof h3, #world h3, #curlmix h3, #jackies h3, #jessies h3, #eden h3, #iam h3, #serum h3, #moroccan h3, #dove h3, #leavin h3, #wave h3{
+    color: #854EA2;
+}
+.prices{
+    font-weight: bold;
+    font-size: 1.5em;
+}
+#dance img:active, #palace img:active, #lotte img:active{
+        box-shadow: 10px 10px #b1c0c3;
+        transform: translateY(4px);
+}
+#food img:active, #cruise img:active, #sheep img:active{
+    box-shadow: 10px 10px #ffefd6;
+    transform: translateY(4px);
+}
+#dance ul, #cruise ul, #food ul, #palace ul, #sheep ul, #lotte ul{
+    list-style: none;
+    }
+
+    footer{
+        background: #854EA2;
+        padding: 50px 0;
+        color: white;
+    }
+    
+    .footer-container{
+        max-width: 100%;
+        margin: auto;
+        padding: 0 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap-reverse;
+    }
+    
+    .logo{
+        width: 180px;
+    }
+    
+    .social-media{
+        margin: 20px 0;
+    }
+    .social-media a{
+        color: white;
+        margin-right: 25px;
+        font-size: 22px;
+        text-decoration: none;
+        transition: .3s linear;
+    }
+    .social-media a:hover{
+        color: #eee;
+    }
+    
+    .right-col h1{
+        font-size: 26px;
+    }
+    .border{
+        width: 100px;
+        height: 4px;
+        background: white;
+    }
+    
+    .foot-discount{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .foot-email{
+        flex: 1;
+        padding: 18px 40px;
+        font-size: 16px;
+        color: white;
+        background: #6a00a2;
+        border: none;
+        font-weight: 700;
+        outline: none;
+        border-radius: 30px;
+        min-width: 260px;
+    }
+    label{
+        /* visibility: hidden; */
+        margin:0;
+        font-size: 0px;
+    }
+    .btn{
+        padding: 18px 40px;
+        font-size: 16px;
+        color: #854EA2;
+        background: white;
+        border: none;
+        font-weight: 700;
+        outline: none;
+        border-radius: 30px;
+        margin-left: 20px;
+        cursor: pointer;
+        transition: opacity .3s linear;
+    }
+    .btn:hover{
+        opacity: .7;
+    }
+
+@media all and (max-width:1000px){
+   
+   
+    #wrapper{
+        margin-top: 150px;
+    }
+    .footer{
+        height: 300px;
+        padding: 10px;
+    }
+    .about{
+        width: 1200px;
+    }
+    
+    .about h1{
+        font-size: 2em;
+        width: 100%;
+    }
+    section {
+        flex-direction: column;
+      }
+      .about, .facts {
+        max-width: 90%;
+        width: auto;
+      }
+      .footer{
+        height: 350px;
+    }
+    .footer-container{
+        max-width: 600px;
+    }
+    .right-col{
+        width: 100%;
+        margin-bottom: 60px;
+    }
+    .left-col{
+        width: 100%;
+        text-align: center;
+    }
+    .btn{
+        margin-top: 10px;
+    }
+}
+/* phone size */
+@media all and (max-width:800px){
+    .footer{
+        height: 300px;
+        padding: 0px;
+    }
+    #wrapper, .topmenu{
+        min-width: 320px;
+    }
+    .nav li{
+        padding: 20px;
+        height: 10px;
+    }
+    .cart{
+        margin: 30px;
+    }
+    .nav li a{
+        padding: 0px 0px; 
+    }
+    #wrapper{
+        margin-top: 100px;
+    }
+    section {
+        flex-direction: column;
+      }
+    .about{
+        max-width: 800px;
+        
+    }
+    #proof, #world, #curlmix, #jackies, #jessies, #eden, #iam, #serum, #moroccan, #dove, #leavin, #wave{
+        padding-left: 30px;
+        padding-right:10px;
+        margin: 0px;
+        width: 500px;
+        text-align: center;
+    }
+
+    #proof div, #world div, #curlmix div, #jackies div, #jessies div, #eden div, #iam div, #serum div, #moroccan div, #dove div, #leavin div, #wave div{
+        width: 200px;
+    }
+    .footer{
+        height: 350px;
+    }
+    .footer-container{
+        max-width: 600px;
+    }
+    .right-col{
+        width: 100%;
+        margin-bottom: 60px;
+    }
+    .left-col{
+        width: 100%;
+        text-align: center;
+    }
+    .btn{
+        margin-top: 10px;
+    }
+}
